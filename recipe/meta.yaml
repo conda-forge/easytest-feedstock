@@ -1,6 +1,6 @@
 {% set name = "easytest" %}
-{% set version = "0.1.4" %}
-{% set sha256 = "4553c57e7da91a2e6f86c9872f8d95955242e79746f86d402dc2c6bdd09fd75f" %}
+{% set version = "0.1.5" %}
+{% set sha256 = "23634e2ccd7df79e50a2fc82763e80520288647aa31f551fcaf7dc1fc9bbb3c2" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
   skip: True  # [py>27]
   skip: True  # [win]
