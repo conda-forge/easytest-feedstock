@@ -5,9 +5,13 @@ Home: https://github.com/pygeo/easytest
 
 Package license: Apache-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/easytest-feedstock/blob/master/LICENSE.txt)
 
 Summary: Framework for easy performance of complex tests
+
+Development: https://github.com/pygeo/easytest
+
+Documentation: http://easytest.readthedocs.io/
 
 Framework for easy performance of complex tests
 
