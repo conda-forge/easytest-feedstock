@@ -12,13 +12,13 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1001
+  number: 1002
   script: python setup.py install --single-version-externally-managed --record record.txt
   skip: True  # [py>27]
   skip: True  # [win]
 
 requirements:
-  build:
+  host:
     - python
     - setuptools
     - numpy 1.11.*
